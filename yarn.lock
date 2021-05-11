@@ -1014,9 +1014,9 @@ lodash.once@^4.0.0:
   integrity sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
 
 lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 long@~3:
   version "3.2.0"
@@ -1814,9 +1814,10 @@ ttn@^2.3.3:
     source-map-support "^0.4.18"
     ttnapi "https://github.com/thethingsnetwork/api"
 
-"ttnapi@git+https://github.com/thethingsnetwork/api.git":
+"ttnapi@https://github.com/thethingsnetwork/api":
   version "2.0.0"
-  resolved "git+https://github.com/thethingsnetwork/api.git#9e3da3462f14dab4c45fa38b03335e85e1970833"
+  uid "7bae06ae0e7bd8868ccd1ad80975c06a64930e87"
+  resolved "https://github.com/thethingsnetwork/api#7bae06ae0e7bd8868ccd1ad80975c06a64930e87"
   dependencies:
     google-protobuf "^3.3.0"
     grpc "^1.4.1"
