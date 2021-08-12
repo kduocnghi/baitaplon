@@ -1340,9 +1340,9 @@ path-is-absolute@^1.0.0:
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-to-regexp@0.1.7:
   version "0.1.7"
@@ -1814,9 +1814,10 @@ ttn@^2.3.3:
     source-map-support "^0.4.18"
     ttnapi "https://github.com/thethingsnetwork/api"
 
-"ttnapi@git+https://github.com/thethingsnetwork/api.git":
+"ttnapi@https://github.com/thethingsnetwork/api":
   version "2.0.0"
-  resolved "git+https://github.com/thethingsnetwork/api.git#9e3da3462f14dab4c45fa38b03335e85e1970833"
+  uid "7bae06ae0e7bd8868ccd1ad80975c06a64930e87"
+  resolved "https://github.com/thethingsnetwork/api#7bae06ae0e7bd8868ccd1ad80975c06a64930e87"
   dependencies:
     google-protobuf "^3.3.0"
     grpc "^1.4.1"
